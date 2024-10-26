@@ -1,0 +1,30 @@
+:root {
+    --black: #000000;
+    --white: #FFFFFF;
+    --white-pink: #F7F0F5;
+    --light-grey: #C6C5B9;
+    --tan: #DECBB7;
+    --blue: #62929E;
+    --dark-blue: #4A6D7C;
+    --grey: #475657;
+    --grey-brown: #5C5552;
+    --light-brown: #8F857D;
+    --brown: #433633;
+    --dark-green: #393A10;
+}
+
+.indie-flower-regular {
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }  
+  
+body {
+    background-color: var(--tan);
+}
+h1 {
+    font-family: "Indie Flower", cursive;
+    text-align: center;
+    background-color: var(--blue);
+    color: var(--white-pink);
+}
