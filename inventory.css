@@ -1,0 +1,88 @@
+:root {
+    --black: #000000;
+    --white: #FFFFFF;
+    --white-pink: #F7F0F5;
+    --light-grey: #C6C5B9;
+    --tan: #DECBB7;
+    --blue: #62929E;
+    --dark-blue: #4A6D7C;
+    --grey: #475657;
+    --grey-brown: #5C5552;
+    --light-brown: #8F857D;
+    --brown: #433633;
+    --dark-green: #393A10;
+}
+
+.indie-flower-regular {
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }  
+  
+body {
+    background-image: url("Images/flowerBackground.jpg");
+    background-size: auto;
+}   
+h1 {
+    font-family: "Indie Flower", cursive;
+    text-align: center;
+    background-color: var(--blue);
+    color: var(--white-pink);
+}
+
+/* The side navigation menu */
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  /* Sidebar links */
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  /* Active/current link */
+  .sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Links on mouse-over */
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  
+  /* On screens that are less than 700px wide, make the sidebar into a topbar */
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
