@@ -17,17 +17,27 @@
     font-family: "Indie Flower", cursive;
     font-weight: 400;
     font-style: normal;
-  }  
+}  
+
+@font-face {
+    font-family: ktegaki;
+    src: url("Fonts/KTEGAKI.ttf");
+}
   
 body {
-    background-image: url("Images/flowerBackground.jpg");
+    background-image: url("Images/starBackground.jpg");
     background-size: auto;
 }   
+
 h1 {
-    font-family: "Indie Flower", cursive;
+    font-family: "ktegaki";
     text-align: center;
     background-color: var(--blue);
     color: var(--white-pink);
+}
+
+p{
+    font-family: "ktegaki";
 }
 
 /* The side navigation menu */
