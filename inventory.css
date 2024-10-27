@@ -13,17 +13,11 @@
     --dark-green: #393A10;
 }
 
-.indie-flower-regular {
-    font-family: "Indie Flower", cursive;
-    font-weight: 400;
-    font-style: normal;
-}  
-
 @font-face {
     font-family: ktegaki;
     src: url("Fonts/KTEGAKI.ttf");
 }
-  
+
 body {
     background-image: url("Images/ginghamcream.png");
     background-size: auto;
@@ -34,6 +28,7 @@ h1 {
     text-align: center;
     background-color: var(--blue);
     color: var(--white-pink);
+
 }
 
 p{
